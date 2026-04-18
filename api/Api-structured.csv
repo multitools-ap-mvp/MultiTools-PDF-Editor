@@ -1,0 +1,11 @@
+﻿Method,Endpoint,Description
+POST,`/api/v1/pdf/upload`,Upload PDF file
+GET,`/api/v1/pdf/status/:uploadId`,Check processing status
+POST,`/api/v1/pdf/edit`,Save edit operations
+POST,`/api/v1/pdf/generate`,Generate modified PDF
+POST,`/api/v1/pdf/email`,Email generated PDF
+POST,`/api/v1/parse/:uploadId`,Parse PDF via ODL
+GET,`/api/v1/parse/health`,Check ODL connection
+POST,`/api/v1/qr/generate`,Generate QR code
+POST,`/api/v1/qr/extract`,Extract QR from image
+GET,`/api/v1/download/:token`,Download PDF
